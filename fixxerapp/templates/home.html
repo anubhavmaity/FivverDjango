@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block page %}
+  <p>Home Page</p>
+  <!-- <a href="/gigs/1">Gig Details</a> -->
+  <a href="{% url 'gig_detail' '1' %}">Gig Details</a>
+{% endblock %}
