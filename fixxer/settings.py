@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'fixxerapp',
-    'social_django',
+    'social.apps.django_app.default',
 ]
 
 MIDDLEWARE = [
